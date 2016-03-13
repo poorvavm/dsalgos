@@ -1,4 +1,5 @@
-# write a program to find number of each character in a string
+# Program to find number of each character in a string
+my_str = input("Please enter string: ")
 ltr_count ={}
 
 for letter in my_str:
