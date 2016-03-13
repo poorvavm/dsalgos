@@ -92,7 +92,7 @@ class LinkedList(object):
         curr_node = self.head
         counter = 0
 
-        while(counter<n):
+        while(counter < n):
             curr_node = curr_node.get_next()
             counter += 1
 
@@ -112,7 +112,7 @@ class LinkedList(object):
         curr_node = self.head
         counter = 0
 
-        while(counter<n-1):
+        while(counter < n-1):
             curr_node = curr_node.get_next()
             counter += 1
 
