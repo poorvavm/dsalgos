@@ -17,4 +17,4 @@ def binary_search(array,element):
             lower = mid_val
         elif element < val:
             upper = mid_val
-    return val
+    return val 
